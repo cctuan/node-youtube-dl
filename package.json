@@ -21,8 +21,6 @@
     "lib": "./lib"
   },
   "scripts": {
-    "preinstall": "node ./scripts/download.js",
-    "preupdate": "node ./scripts/download.js",
     "test": "vows ./test/*.js --spec"
   },
   "dependencies": {
